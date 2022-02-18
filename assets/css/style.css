@@ -1,0 +1,87 @@
+/* This is for the entire website. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* This is for the entire body of the website. */
+body {
+    color: rgb(21, 140, 196);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* All this a stuff is for links so they can look 
+cleaner on the website. */
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+/* This is the whole header part of the website
+including my name and the nav. */
+header {
+    padding: 6px 0px 10px;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* This is the css for my in the header. */
+header h1 {
+    padding: 12px 8px 10px 100px;
+    font-weight: bold;
+    font-size: 42px;
+    color: black;
+    background-color: rgb(138, 222, 255);
+    margin: 0;
+    border-radius: 2px;
+}
+/* This is the tabs in the header that take you to
+the places on the website. */
+header nav {
+    font-weight: bold;
+    margin: 20px 30px;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 2.00vw;
+    color: rgb(138, 222, 255);
+    border-bottom: 4px solid rgb(138, 222, 255);
+    padding-bottom: 5px;
+}
+.hero {
+    background-image: url(https://wallpaperaccess.com/full/1567759.jpg);
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#my-photo {
+    padding-left: 60px;
+    height: 220px;
+    width: auto;
+}
+.hero h3 {
+    position: absolute;
+    top: 150px;
+    right: 80px;
+    color: black;
+    font-size: 26px;
+    background-color: rgb(138, 222, 255);
+    padding: 8px;
+    border-radius: 4px;
+}

@@ -63,6 +63,7 @@ header nav ul li a {
     border-bottom: 4px solid rgb(138, 222, 255);
     padding-bottom: 5px;
 }
+/* This is the image section under the header section. */
 .hero {
     background-image: url(https://wallpaperaccess.com/full/1567759.jpg);
     height: 220px;
@@ -70,18 +71,105 @@ header nav ul li a {
     background-position: center;
     position: relative;
 }
+/* This is my photo */
 #my-photo {
     padding-left: 60px;
     height: 220px;
     width: auto;
 }
+/* This is the part in the hero section that says "More projects to come!"*/
 .hero h3 {
     position: absolute;
-    top: 150px;
-    right: 80px;
+    top: 50%;
+    right: 5%;
     color: black;
     font-size: 26px;
     background-color: rgb(138, 222, 255);
     padding: 8px;
-    border-radius: 4px;
 }
+/* The titles class is the "about me" text and the 
+"work" text */
+.titles {
+    position: absolute;
+    margin: 50px 40px 20px 50px;
+    font-weight: bold;
+    font-size: 3.50vw;
+    border-right: 4px solid rgb(21, 140, 196);
+    padding-right: 18px;
+}
+/* This is the about me small text where 
+I actually describe myself. */
+.myself p {
+    font-size: 1.50vw;
+    margin: 60px 30% 0 ;
+    border: 2px solid rgb(21, 140, 196);
+    padding: 5px;
+}
+/* This is to space out the "Work" text neatly. */
+.my-work h2 {
+    margin: 10% 0 0 10%;
+}
+/* This is the image of my run buddy website */
+#run-buddy {
+    padding: 60px 20px 20px 450px;
+    height: auto;
+    width: 100%;
+}
+/* This is the link to the run buddy site under the 
+image */
+.my-work a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 50%;
+    font-weight: bold;
+    font-size: 2.25vw;
+}
+/* This is the text that says more work coming soon */
+.my-work h4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 50%;
+    padding-top: 5%;
+    color: red;
+    font-weight: bold;
+    font-size: 4.00vw;
+}
+/* This is the contact me section and everthing in it. */
+footer {
+    padding: 6px 0px 10px;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* This is the part that says "Contact Me" */
+footer h2 {
+    padding: 12px 8px 10px 100px;
+    font-weight: bold;
+    font-size: 42px;
+    color: black;
+    background-color: rgb(138, 222, 255);
+    margin: 0;
+    border-radius: 2px;
+}
+/* This is all my contact information. */
+footer address {
+    font-weight: bold;
+    margin: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+footer a {
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 2.00vw;
+    color: rgb(138, 222, 255);
+    border-bottom: 4px solid rgb(138, 222, 255);
+    padding-bottom: 5px;
+}
+
